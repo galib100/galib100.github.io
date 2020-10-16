@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon"  href="img/mg.png" type="image/x-icon">
+    <title>Galib | Education</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/Galibbootstrap.css">
+    <link rel="stylesheet" href="css/uikit.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- navSection Start -->
+    <section id="navSection" class="bg-dark">
+    <nav id="nav" class="navbar navbar-dark  navbar-expand-md text-center fixed-top">
+        <div class="container">
+          <img class="headPic" src="./img/galib.jpeg" alt="">
+        <div class="navbar-brand brandText text-uppercase">&Gfr;&Afr;&Lfr;&Ifr;&Bfr;</div>
+        <div>
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navSec">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navSec">
+        <ul class="navbar-nav text-uppercase text-left">
+            <li class="nav-item"> <a  class="nav-link" href="index.html"> <span class="fa fa-home fa-spin p-1"></span>Home</a></li>
+            <li class="nav-item"> <a  class="nav-link" href="./experi.html"> <span class="fa fa-code fa-spin p-1"></span>Experience</a></li>
+            <li class="nav-item"> <a style="border-bottom:  1px solid rgb(144, 243, 243);"  class="nav-link active" href="edu.html" active> <span class="fa fa-institution fa-spin p-1"></span> Education</a></li> 
+            <li class="nav-item"> <a  class="nav-link" href="./photo.html"> <span class="fa fa-camera fa-spin p-1"></span>Photography</a></li>
+            <li class="nav-item"> <a  class="nav-link" href="./contact.html"> <span class="fa fa-phone fa-spin p-1"></span>contact</a></li>
+        </ul>
+    </div>
+         </div>
+    </div>
+    </nav>
+    </section>
+    
+    <!-- navsection_end -->
+   
+ 
+
+ <section id="eduSec" class="pt-5 bg-dark" style="color: hsl(160, 15%, 73%);"> 
+   <div class="container pt-5 text-center">
+    
+  <h3 class="eduHeading text-uppercase "> <span class="fa fa-institution fa-pulse"></span> Educational Institutions</h3>
+ </div>
+   <div class="container text-center bg-dark ">
+    <div class="row pt-2 " id="ruetSec">
+      <div class="col-lg-2">
+        <img class="ccj-img img-rotate" src="./img/ruet.png" alt="ccj Image">
+      </div>
+        <div class="col-lg-9 ccjName">
+        <h3 class="text-light insHeading">Rajshahi University of Engineering & Technology
+         </h3>
+        <p>BSc. Engg. Electrical & Computer Engineering (ECE)</p>
+   <span class="fa fa-calendar-check-o"> Class Of(2018-2023)</span> <br>
+   <button class="btn btn-sm btn-outline-danger pull-right"><a class="text-light" href="https://ruet.ac.bd">Visit RUET Website</a></button>
+   <button class="btn btn-sm btn-outline-danger pull-left"><a class="text-light" href="ruetPhot.html">Ruet Photo</a></button>
+        </div>
+  </div>
+      <div class="row pt-2" id="ccjSec">
+      <div class="col-lg-2">
+        <img class="ccj-img img-rotate" src="./img/ccj.png" alt="">
+      </div>
+        <div class="col-lg-9 ccjName ">
+        <h3 class="text-light insHeading">Cantonment Collage Jessore</h3>
+        <p>Faculty of Science (B)</p>
+        <small>Roll: 1612100</small>
+        <br>
+        <span class="fa fa-calendar-check-o"> session(2018-2019)</span>
+        </div>
+    </div>
+   
+    <div class="row pt-2" id="apcSec">
+        <div class="col-lg-2">
+          <img class="ccj-img img-rotate" src="./img/apclogo.jpg" alt="">
+        </div>
+          <div class="col-lg-9 ccjName">
+          <h3 class="text-light insHeading">Champaful A.P.C High School
+           </h3>
+          <p>Section : Science</p>
+     <span class="fa fa-clock-o fa-pulse"></span> School_Year(2010-2015) 
+          </div>
+    </div>
+<!-- Primary_School -->
+    <div class="row pt-2" id="pmSec">
+      <div class="col-lg-2">
+        <img class="ccj-img img-rotate" src="./img/" alt="Primary_logo">
+      </div>
+        <div class="col-lg-9 ccjName">
+        <h3 class="text-light insHeading">Champaful Govt. Primary School
+         </h3>
+   <span class="fa fa-child"> School_Year(2009-2010) </span>
+        </div>
+  </div>
+
+  <!-- madrasah_SEcttion -->
+  <div class="row pt-2" id="madSec">
+    <div class="col-lg-2">
+      <img class="ccj-img img-rotate" src="./img/" alt="madrasah_Logo">
+    </div>
+      <div class="col-lg-9 ccjName">
+      <h3 class="text-light insHeading">Al-Madani Dakhil Madrasah
+       </h3>
+ <span class="fa fa-clock-o fa-pulse"></span> School_Year(2005-2009) 
+      </div>
+</div>
+</div> 
+ </section>
+ <div class="text-center fixed-bottom">   
+    
+  <button id="toDay" onclick="fun()" class="btn btn-success btn-lg"></button>
+  <button id="toMonth" onclick="fun()"  class="btn btn-danger btn-lg"></button>
+  <button id="toYear" onclick="fun()"  class="btn btn-success btn-lg"></button>
+  <button id="Hour" onclick="fun()"  class="btn btn-outline-danger btn-sm"></button>
+  <button id="Min" onclick="fun()"  class="btn btn-outline-success btn-sm"></button>
+  <button id="sec" onclick="fun()"  class="btn btn-outline-warning btn-sm"></button>
+</div> 
+ <!-- footer Section start -->
+ <section id="footerSection" class="text-center bg-dark">
+     <div class="container py-5  text-light">
+         Develop BY <span>&copy;</span> <a href="">Musanna Galib</a>
+     </div>
+ </section>
+    
+    <script src="./js/uikit.min.js"></script>
+    <script src="./js/uikit-icons.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery-3.4.1.slim.min.js"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
+
+<script>
+   var day =new Date();
+ document.getElementById('toYear').innerHTML = day.getFullYear();
+ document.getElementById('toDay').innerHTML = day.getDate();
+ document.getElementById('toMonth').innerHTML = day.getMonth()+ 1;
+ document.getElementById('Hour').innerHTML = day.getHours();
+ document.getElementById('Min').innerHTML = day.getMinutes();
+ document.getElementById('sec').innerHTML = day.getSeconds();
+  
+  /* paste this in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+
+  /* customize formbutton here*/     
+  formbutton("create", {
+    action: "https://formspree.io/tmrazin51@gmail.com",
+    title: "How can we help?",
+    fields: [
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "_replyto",
+        required: true,
+        placeholder: "your@email.com"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      fontFamily: "Montserrat",
+      title: {
+        background: "gray",
+      },
+      button: {
+        background: "gray",
+      }
+    },
+    initiallyVisible: false
+  });
+
+   
+   </script>
+</body>
+</html>
